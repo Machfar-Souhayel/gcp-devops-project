@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: node-app  
-        image: gcr.io/souhayelproject/gcpdevops:latest
+        image: gcr.io/souhayelproject/gcpdevops
         ports:
         - containerPort: 5000
         env:
