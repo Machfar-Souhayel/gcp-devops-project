@@ -12,7 +12,7 @@ steps:
   - --filename=gke.yaml
   - --location=us-central1-c
   - --cluster=gke-gcp-devops
-  - --namespace=gcp-devops-gke
+  - --namespace=gcp-devops-prod
 
 options:
   logging: CLOUD_LOGGING_ONLY
